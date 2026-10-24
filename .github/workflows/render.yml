@@ -15,6 +15,18 @@ jobs:
         with:
           node-version: 20
 
+      - name: Check public folder
+        run: |
+          echo "--- repo root ---"; ls -la
+          echo "--- public/ ---"; ls -la public || (echo "ERROR: public/ folder নেই" && exit 1)
+          test "$(ls public | wc -l)" -ge 20 || (echo "ERROR: public/ এ ২০টা ফাইল (১৯ ছবি + ১ অডিও) থাকার কথা" && exit 1)
+
+      - name: Rename audio to voiceover.mp3
+        run: |
+          f=$(ls public/ElevenLabs*.mp3 | head -n 1)
+          echo "Found audio: $f"
+          mv "$f" public/voiceover.mp3
+
       - name: Install dependencies
         run: npm install
 
