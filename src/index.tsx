@@ -40,7 +40,7 @@ const f = (s: number) => Math.round(s * FPS);
 
 // public/ folder এ এই নামে ফাইলটা রাখুন
 const AUDIO_FILE =
-  "ElevenLabs_2026-10-24T17_28_17_Rayhan_-_Engaging_Excitement_eleven_v4_ben.mp3";
+  "ElevenLabs_2026-10-24T17_28_17_Rayhan_-_Engaging_Excitement_eleven_v4.mp3";
 
 const C = { bg: "#ffffff", ink: "#0a0a0a", mute: "#6b6b6b" };
 
