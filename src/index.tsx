@@ -39,8 +39,7 @@ const DURATION = VIDEO_SECONDS * FPS;
 const f = (s: number) => Math.round(s * FPS);
 
 // public/ folder এ এই নামে ফাইলটা রাখুন
-const AUDIO_FILE =
-  "ElevenLabs_2026-10-24T17_28_17_Rayhan_-_Engaging_Excitement_eleven_v4.mp3";
+const AUDIO_FILE = "voiceover.mp3"; // workflow নিজে ElevenLabs*.mp3 কে এই নামে বদলে নেয়
 
 const C = { bg: "#ffffff", ink: "#0a0a0a", mute: "#6b6b6b" };
 
@@ -65,25 +64,25 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 /* Screenshot files (all inside public/)                               */
 /* ------------------------------------------------------------------ */
 const F = {
-  light: "Screenshot_20261024_170052_Admission_Calendar.jpg",
-  dark: "Screenshot_20261024_170059_Admission_Calendar.jpg",
-  info: "Screenshot_20261024_170230_Admission_Calendar.jpg",
-  apply: "Screenshot_20261024_170235_Admission_Calendar.jpg",
-  admit: "Screenshot_20261024_170240_Admission_Calendar.jpg",
-  result: "Screenshot_20261024_170244_Admission_Calendar.jpg",
-  dlEmpty: "Screenshot_20261024_170155_Admission_Calendar.jpg",
-  dlBio: "Screenshot_20261024_170211_Admission_Calendar.jpg",
-  myCal: "Screenshot_20261024_170220_Admission_Calendar.jpg",
-  study: "Screenshot_20261024_170255_Admission_Calendar.jpg",
-  apiKey: "Screenshot_20261024_170311_Admission_Calendar.jpg",
-  chat: "Screenshot_20261024_170318_Admission_Calendar.jpg",
-  more: "Screenshot_20261024_170301_Admission_Calendar.jpg",
+  light: "Screenshot_20261024_170052_Admission Calendar.jpg",
+  dark: "Screenshot_20261024_170059_Admission Calendar.jpg",
+  info: "Screenshot_20261024_170230_Admission Calendar.jpg",
+  apply: "Screenshot_20261024_170235_Admission Calendar.jpg",
+  admit: "Screenshot_20261024_170240_Admission Calendar.jpg",
+  result: "Screenshot_20261024_170244_Admission Calendar.jpg",
+  dlEmpty: "Screenshot_20261024_170155_Admission Calendar.jpg",
+  dlBio: "Screenshot_20261024_170211_Admission Calendar.jpg",
+  myCal: "Screenshot_20261024_170220_Admission Calendar.jpg",
+  study: "Screenshot_20261024_170255_Admission Calendar.jpg",
+  apiKey: "Screenshot_20261024_170311_Admission Calendar.jpg",
+  chat: "Screenshot_20261024_170318_Admission Calendar.jpg",
+  more: "Screenshot_20261024_170301_Admission Calendar.jpg",
   web: "Screenshot_20261024_170342_Chrome.jpg",
   pdf: "Screenshot_20261024_170352_Chrome.jpg",
-  offline: "Screenshot_20261024_170450_Admission_Calendar.jpg",
-  homeMenu: "Screenshot_20261024_170403_One_UI_Home.jpg",
-  widgetPick: "Screenshot_20261024_170409_One_UI_Home.jpg",
-  homeWidgets: "Screenshot_20261024_170436_One_UI_Home.jpg",
+  offline: "Screenshot_20261024_170450_Admission Calendar.jpg",
+  homeMenu: "Screenshot_20261024_170403_One UI Home.jpg",
+  widgetPick: "Screenshot_20261024_170409_One UI Home.jpg",
+  homeWidgets: "Screenshot_20261024_170436_One UI Home.jpg",
 };
 
 /* ------------------------------------------------------------------ */
