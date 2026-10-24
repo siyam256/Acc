@@ -3,11 +3,6 @@ name: Render video
 on:
   workflow_dispatch:
   push:
-    branches: [main]
-    paths:
-      - "src/**"
-      - "public/**"
-      - "package.json"
 
 jobs:
   render:
